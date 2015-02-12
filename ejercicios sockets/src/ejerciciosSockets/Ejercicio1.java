@@ -17,6 +17,8 @@ import java.net.Socket;
 
 public class Ejercicio1 {
 	public static void main(String [] args){
+		System.out.println("Estoy haciendo un cambio a ver...");
+		
 		try {
 			ServerSocket s=new ServerSocket(6200,2);
 			System.out.println("Escuchando el puerto "+s.getLocalPort()+"\n En la direccion: "+s.getInetAddress().toString());
